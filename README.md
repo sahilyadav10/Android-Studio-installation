@@ -1,2 +1,2 @@
 # Android-Studio-installation
-Android Studio installation on elementary OS (Ubuntu) 
+This repository is for Linux beginners and guides you through the step by step process to install Android Studio on Elementary OS (Ubuntu) using two methods: PPA and Ubuntu make. 
