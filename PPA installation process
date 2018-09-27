@@ -38,15 +38,19 @@ Step 4- Open terminal, and navigate to android-studio/bin/ using the following c
             cd android-studio/bin
             ./studio.sh
             
-Step 5- Set the ANDROID_HOME environment variable to the location of your Android SDK installation. To do so, run the
+        Then, select whether you want to import previous Android Studio settings or not, and click OK.
+            
+Step 5- After installation completes, set the ANDROID_HOME environment variable to the location of your Android SDK installation. To do so, run the
         following commands in terminal.
         
-        sudo gedit ~/.bashrc
+            sudo gedit ~/.bashrc
         
       - Now, paste the following lines in the editor and save the file.
       
-        export ANDROID_HOME=/home/user_directory/Android/Sdk
-        export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-        export JAVA_HOME=/usr/lib/jvm/java-8-oracle
-
-          
+            export ANDROID_HOME=/home/user_directory/Android/Sdk
+            export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+            export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+            
+        Now you're all set to use Android Studio.
+        
+                           --------------------------------xxx-------------------------------
