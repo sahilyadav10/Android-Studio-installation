@@ -30,15 +30,15 @@
        PATH=$PATH:$JAVA_HOME
        export PATH
        ```            
-2. Download Android Studio package for Linux from https://developer.android.com/studio/
-3. Extract it somewhere (say,home directory)
-4. Open terminal, and navigate to android-studio/bin/ using the following code and execute studio.sh
+4. Download Android Studio package for Linux from https://developer.android.com/studio/
+5. Extract it somewhere (say,home directory)
+6. Open terminal, and navigate to android-studio/bin/ using the following code and execute studio.sh
     ```      
     cd android-studio/bin
     ./studio.sh
     ```
- Then, select whether you want to import previous Android Studio settings or not, and click OK.          
-5. After installation completes, set the ANDROID_HOME environment variable to the location of your Android SDK installation. To do so, run the following commands in terminal.
+   Then, select whether you want to import previous Android Studio settings or not, and click OK.          
+7. After installation completes, set the ANDROID_HOME environment variable to the location of your Android SDK installation. To do so, run the following commands in terminal.
    ``` 
    sudo gedit ~/.bashrc   
    ```
